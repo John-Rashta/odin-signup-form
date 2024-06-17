@@ -1,6 +1,16 @@
 /* by Matt Brictson from https://mattbrictson.com/blog/css-normalize-and-reset */
 @import "modern-normalize";
 
+@font-face {
+
+    font-family: "norsebold";
+    src: 
+        url("../font/Norse-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 :root {
   line-height: 1.5;
 }
