@@ -33,3 +33,193 @@ img {
   display: block;
   max-inline-size: 100%;
 }
+
+
+/* CSS styling for index */
+/*sidebar styling */
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    font-family: system-ui, arial;
+}
+
+.sidebar,
+.main {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar {
+
+    background: center/cover no-repeat url("../images/leaves.jpg");
+    flex-basis: 30%;
+    padding-top: 10%;
+    padding-bottom: 7px;
+    justify-content: space-between;
+}
+
+.main {
+
+    flex-basis: 70%;
+}
+
+.sidetop {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.odinlogo {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sidetop>div {
+
+    font-family: "norsebold";
+    color: white;
+    font-size: 6vw;
+}
+
+.sidebot,
+.sidebot > a {
+
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* main styling */
+
+
+.main {
+
+    background-color:whitesmoke;
+    padding-top: 15vh;
+}
+
+.toptext,
+.botpart {
+
+    padding-left: 3vw;
+
+}
+
+
+.toptext {
+
+    padding-right: 10vw;
+    font-weight: bold;
+    font-size: max(1rem, 2.5vh);
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 8vh;
+}
+
+
+.botpart {
+
+    padding-top: 4vh;
+}
+
+.bottext {
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bottext > a {
+
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+
+    background-color: #596D48;
+    color: white;
+    padding: 15px 55px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+
+/* form styling */
+
+
+h1 {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.formsection {
+
+    background-color: white;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    box-shadow: 0px 7px 7px lightgray;
+}
+
+form > div {
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    gap: 2px;
+    margin-bottom: 2vh;
+    font-weight: 600;
+}
+
+form {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2vh;
+    
+}
+
+input {
+
+    width: 50%;
+    height: 1.7rem;
+    border-radius: 5px;
+    border: solid #E5E7EB 1.5px;
+    font-size: 1rem;
+    padding: 4px 10px;
+    
+}
+
+input[type="password"]:invalid {
+
+    border-color: red;
+}
+
+input:focus {
+
+    outline: none;
+    border-color: blue;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+
