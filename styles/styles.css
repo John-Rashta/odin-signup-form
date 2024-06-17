@@ -181,7 +181,7 @@ h1 {
     box-shadow: 0px 7px 7px lightgray;
 }
 
-form > div {
+#accountform > div {
 
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ form > div {
     font-weight: 600;
 }
 
-form {
+#accountform {
 
     display: flex;
     flex-wrap: wrap;
@@ -218,7 +218,7 @@ input[type="password"]:invalid {
 input:focus {
 
     outline: none;
-    border-color: blue;
+    border-color: blue !important;
     box-shadow: 5px 5px 5px lightgray;
 }
 
